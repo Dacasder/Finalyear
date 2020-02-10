@@ -120,8 +120,8 @@
             <a data-fancybox data-ratio="2" href="" class="play-button d-block">
               <span class="icon-play"></span>
             </a>
-            <h1 class="text-uppercase">Student Academic Monitoring System</h1>
-            <span class="sub-text mb-3 d-block"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam molestiae ipsam, atque.</em></span>
+            <h1 class="text-uppercase">Guardian Angel </h1>
+            <span class="sub-text mb-3 d-block"><em>A Student Academic Monitoring System (SAMS).</em></span>
           </div>
         </div>
       </div>
