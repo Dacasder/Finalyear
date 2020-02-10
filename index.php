@@ -120,7 +120,7 @@
             <a data-fancybox data-ratio="2" href="" class="play-button d-block">
               <span class="icon-play"></span>
             </a>
-            <h1 class="text-uppercase">XXXXXXXXXXX</h1>
+            <h1 class="text-uppercase">Student Academic Monitoring System</h1>
             <span class="sub-text mb-3 d-block"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam molestiae ipsam, atque.</em></span>
           </div>
         </div>
