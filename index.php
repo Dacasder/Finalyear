@@ -121,7 +121,7 @@
               <span class="icon-play"></span>
             </a>
             <h1 class="text-uppercase">Guardian Angel </h1>
-            <span class="sub-text mb-3 d-block"><em>A Student Academic Monitoring System (SAMS).</em></span>
+            <span class="sub-text mb-3 d-block"><em>A Student Academic Monitoring System (S.A.M.S).</em></span>
           </div>
         </div>
       </div>
