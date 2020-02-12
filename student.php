@@ -68,7 +68,7 @@
                   <a href="#home-section" class="nav-link">Home</a>
                 </li>
                 <li>
-                  <a href="#projects-section" class="nav-link">Sceduals</a>
+                  <a href="#projects-section" class="nav-link">Scehduals</a>
                 </li>
                 <li><a href="login.html" class="nav-link">Logout</a></li>
                 <li><a href="register.html" class="nav-link">Assignment</a></li>
