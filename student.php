@@ -114,10 +114,10 @@
                   </ul>
                 </li>-->
                 <li>
-                  <a href="#projects-section" class="nav-link">Scedual</a>
+                  <a href="#projects-section" class="nav-link">Sceduals</a>
                 </li>
                 <li><a href="login.html" class="nav-link">Logout</a></li>
-                <li><a href="register.html" class="nav-link">Assinment</a></li>
+                <li><a href="register.html" class="nav-link">Assignment</a></li>
                 <li class="has-children">
                   <a href="#contact-section" class="nav-link">Contact</a>
                   <ul class="dropdown arrow-top">
@@ -139,12 +139,37 @@
   <div class="container">
     <div class="row align-items-center text-center justify-content-center">
       <div class="col-md-8">
+
       <!--  <a data-fancybox data-ratio="2" href="" class="play-button d-block">
           <span class="icon-play"></span>
         </a>
         <h1 class="text-uppercase">Guardian Angel </h1>
         <span class="sub-text mb-3 d-block"><em>A Student Academic Monitoring System (S.A.M.S).</em></span>
       -->
+<div class="clear"></div>
+
+    	<div id="box1">
+    		<img src="" height="100" width="100">
+    		  <p><em><strong>GPA</strong></em></p>
+    	     </div>
+
+      	<div id="box2">
+      		<img src="" height="100" width="100">
+      		  <p><em><strong>Register Courses</strong></em></p>
+      	      </div>
+
+      	<div id="box3">
+      		<img src="" height="100" width="100">
+      		  <p><em><strong>Time Table</strong></em></p>
+      	     </div>
+
+    	  <div id="box4">
+    		    <img src="" height="100" width="100">
+    		      <p><em><strong>Set Goals</strong></em></p>
+    	           </div><div class="clear"></div>
+
+  <div class="clear"></div>
+</div>
       </div>
     </div>
   </div>
