@@ -68,12 +68,12 @@
                   <a href="#home-section" class="nav-link">Home</a>
                 </li>
                 <li>
-                  <a href="#projects-section" class="nav-link">Scehduals</a>
+                  <a href="#projects-section" class="nav-link">Scheduals</a>
                 </li>
-                <li><a href="login.html" class="nav-link">Logout</a></li>
+                <li><a href="login.html" class="nav-link">Log out</a></li>
                 <li><a href="register.html" class="nav-link">Assignment</a></li>
                 <li class="has-children">
-                  <a href="#contact-section" class="nav-link">Contact</a>
+                  <a href="#contact-section" class="nav-link">Contacts</a>
                   <ul class="dropdown arrow-top">
                     <li><a href="#our-team-section" class="nav-link">Student Support</a></li>
                     <li><a href="#faq-section" class="nav-link">School Advisor</a></li>
@@ -96,7 +96,6 @@
 <div class="col-md-8">
 
 <div class="contain1">
-
     	<div id="box1">
     		<img src="" height="150" width="150">
     		  <p><em><strong>GPA</strong></em></p>
@@ -106,19 +105,19 @@
       		<img src="" height="150" width="150">
       		  <p><em><strong>Register Courses</strong></em></p>
       	      </div>
-</div>
-<div class="contain2">
+
+
     	<div id="box3">
-      		<img src="" height="100" width="100">
+      		<img src="" height="150" width="150">
       		  <p><em><strong>Time Table</strong></em></p>
       	     </div>
 
     	  <div id="box4">
-    		    <img src="" height="100" width="100">
+    		    <img src="" height="150" width="150">
     		      <p><em><strong>Set Goals</strong></em></p>
     	           </div><div class="clear"></div>
-
 </div>
+
 </div>
       </div>
     </div>
