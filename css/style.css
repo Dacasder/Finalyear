@@ -1263,28 +1263,30 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 	height: auto;
   float: right;
+  color: red;
 }
 
 #box1
 {
 	float: right;
-	margin-right: 20px;
+	margin-right: auto;
   color: green;
+
 }
 #box2
 {
 	float: left;
-	margin-right:100px;
+	margin-right:auto;
 }
 #box3
 {
 	float: left;
-	margin-left: 20px;
+	margin-left: auto;
 }
 #box4
 {
     float: left;
-	margin-left: 100px;
+	margin-left: auto;
 }
 
 

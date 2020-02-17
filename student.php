@@ -65,12 +65,12 @@
 
               <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
                 <li>
-                  <a href="#home-section" class="nav-link">Home</a>
+                  <a href="http://localhost/FinalYearProject/student.php#home-section" class="nav-link">Home</a>
                 </li>
                 <li>
                   <a href="#projects-section" class="nav-link">Scheduals</a>
                 </li>
-                <li><a href="login.html" class="nav-link">Log out</a></li>
+                <li><a href="http://localhost/FinalYearProject/index.php" class="nav-link">Log out</a></li>
                 <li><a href="register.html" class="nav-link">Assignment</a></li>
                 <li class="has-children">
                   <a href="#contact-section" class="nav-link">Contacts</a>
