@@ -14,16 +14,10 @@
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-
       <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
       <link rel="stylesheet" href="css/aos.css">
       <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
-
       <link rel="stylesheet" href="css/style.css">
-
 
   </head>
   <body>
@@ -44,39 +38,14 @@
     </div>
   </div>
   <div class="site-mobile-menu-body"></div>
-</div> <!-- .site-mobile-menu -->
+</div>
 
 <div class="site-navbar-wrap">
   <div class="site-navbar-top">
     <div class="container py-3">
       <div class="row align-items-center">
-      <!--  <div class="col-6">
-       <a href="#" class="p-2 pl-0"><span class="icon-twitter"></span></a>
-          <a href="#" class="p-2 pl-0"><span class="icon-facebook"></span></a>
-          <a href="#" class="p-2 pl-0"><span class="icon-linkedin"></span></a>
-          <a href="#" class="p-2 pl-0"><span class="icon-instagram"></span></a>
-
-        <h4 class="d-none d-md-inline-block" class="d-flex align-items-center">Guardian Angel </h4>
-        <span class="sub-text mb-3 d-block"><em>A Student Academic Monitoring System (S.A.M.S).</em></span>
-      </div>
-    -->
     <div class="col-6">
           <div class="d-flex ml-auto">
-          <!--  <a href="#" class="d-flex align-items-center ml-auto mr-4">
-              <span class="icon-envelope mr-2"></span>
-              <span class="d-none d-md-inline-block">no@email.com</span>
-            </a>
-            <a href="#" class="d-flex align-items-center">
-              <span class="icon-phone mr-2"></span>
-              <span class="d-none d-md-inline-block">+234 815 590 1595</span>
-
-
-               class="my-0 site-logo"><a href="index.html"
-
-
-
-            </a> -->
-
           </div>
         </div>
       </div>
@@ -96,30 +65,15 @@
 
               <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
                 <li>
-                  <a href="#home-section" class="nav-link">Home</a>
+                  <a href="http://localhost/FinalYearProject/student.php#home-section" class="nav-link">Home</a>
                 </li>
-              <!--  <li class="has-children">
-                  <a href="#about-section" class="nav-link">About Us</a>
-                  <ul class="dropdown arrow-top">
-                    <li><a href="#our-team-section" class="nav-link">Team</a></li>
-                    <li><a href="#faq-section" class="nav-link">FAQ</a></li>
-                    <li class="has-children">
-                      <a href="#">More Links</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Menu One</a></li>
-                        <li><a href="#">Menu Two</a></li>
-                        <li><a href="#">Menu Three</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>-->
                 <li>
-                  <a href="#projects-section" class="nav-link">Sceduals</a>
+                  <a href="#projects-section" class="nav-link">Scheduals</a>
                 </li>
-                <li><a href="login.html" class="nav-link">Logout</a></li>
+                <li><a href="http://localhost/FinalYearProject/index.php" class="nav-link">Log out</a></li>
                 <li><a href="register.html" class="nav-link">Assignment</a></li>
                 <li class="has-children">
-                  <a href="#contact-section" class="nav-link">Contact</a>
+                  <a href="#contact-section" class="nav-link">Contacts</a>
                   <ul class="dropdown arrow-top">
                     <li><a href="#our-team-section" class="nav-link">Student Support</a></li>
                     <li><a href="#faq-section" class="nav-link">School Advisor</a></li>
@@ -138,37 +92,32 @@
 <div class="site-blocks-cover overlay" style="background-image: url(img/xxx.jpg);" data-aos="fade" data-stellar-background-ratio="0.5"id="home-section">
   <div class="container">
     <div class="row align-items-center text-center justify-content-center">
-      <div class="col-md-8">
 
-      <!--  <a data-fancybox data-ratio="2" href="" class="play-button d-block">
-          <span class="icon-play"></span>
-        </a>
-        <h1 class="text-uppercase">Guardian Angel </h1>
-        <span class="sub-text mb-3 d-block"><em>A Student Academic Monitoring System (S.A.M.S).</em></span>
-      -->
-<div class="clear"></div>
+<div class="col-md-8">
 
+<div class="contain1">
     	<div id="box1">
-    		<img src="" height="100" width="100">
+    		<img src="" height="150" width="150">
     		  <p><em><strong>GPA</strong></em></p>
     	     </div>
 
       	<div id="box2">
-      		<img src="" height="100" width="100">
+      		<img src="" height="150" width="150">
       		  <p><em><strong>Register Courses</strong></em></p>
       	      </div>
 
-      	<div id="box3">
-      		<img src="" height="100" width="100">
+
+    	<div id="box3">
+      		<img src="" height="150" width="150">
       		  <p><em><strong>Time Table</strong></em></p>
       	     </div>
 
     	  <div id="box4">
-    		    <img src="" height="100" width="100">
+    		    <img src="" height="150" width="150">
     		      <p><em><strong>Set Goals</strong></em></p>
     	           </div><div class="clear"></div>
+</div>
 
-  <div class="clear"></div>
 </div>
       </div>
     </div>
