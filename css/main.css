@@ -158,11 +158,11 @@ h6 {
    #BACKGROUND
    ========================================================================== */
 .bg-blue {
-  background: #2c6ed5;
+  background: #FF5733;
 }
 
 .bg-red {
-  background: #fa4251;
+  background: #FF5733;
 }
 
 /* ==========================================================================
@@ -472,7 +472,7 @@ input {
 }
 
 .card-2 .card-heading {
-  background: url("../images/bg-heading-02.jpg") top left/cover no-repeat;
+  background: url("../img/xxx.jpg") top left/cover no-repeat;
   width: 29.1%;
   display: table-cell;
 }

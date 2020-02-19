@@ -72,7 +72,7 @@
                             </div>
                         </div>
                         <div class="p-t-30">
-                            <button class="btn btn--radius btn--green" type="submit">Search</button>
+                            <button class="btn btn--radius btn--green" type="submit">Register</button>
                         </div>
                     </form>
                 </div>
