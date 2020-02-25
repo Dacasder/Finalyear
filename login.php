@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title Page-->
-    <title>Registration Page</title>
+    <title>Login here| SAMS</title>
 
     <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -35,11 +35,14 @@
                           <input class="input--style-2" type="email" placeholder="Email" name="name">
                       </div>
                       <div class="input-group">
-                          <input class="input--style-2" type="password" placeholder="Password" name="name">
+                          <input class="input--style-2" type="password" placeholder="Password" name="password">
                       </div>
                         <div class="p-t-30">
                             <button class="btn btn--radius btn--green" type="submit">LOGIN</button>
                         </div>
+                        <div class="p-t-30">
+                        <li><b>Don't have an acoount.</b><a href="register.php">Register Here.</a></li>
+                      </div>
                     </form>
                 </div>
             </div>
