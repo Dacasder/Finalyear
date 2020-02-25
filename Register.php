@@ -34,6 +34,15 @@
                         <div class="input-group">
                             <input class="input--style-2" type="text" placeholder="Name" name="name">
                         </div>
+                        <div class="input-group">
+                            <input class="input--style-2" type="email" placeholder="Email" name="name">
+                        </div>
+                        <div class="input-group">
+                            <input class="input--style-2" type="password" placeholder="Password" name="name">
+                        </div>
+                        <div class="input-group">
+                            <input class="input--style-2" type="password" placeholder="Re-Password" name="name">
+                        </div>
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
@@ -74,6 +83,9 @@
                         <div class="p-t-30">
                             <button class="btn btn--radius btn--green" type="submit">Register</button>
                         </div>
+                        <div class="p-t-30">
+                        <li><b>Already have an acoount.</b><a href="login.php">Login Here.</a></li>
+                      </div>
                     </form>
                 </div>
             </div>
