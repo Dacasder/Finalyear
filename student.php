@@ -68,15 +68,21 @@
                   <a href="http://localhost/FinalYearProject/student.php#home-section" class="nav-link">Home</a>
                 </li>
                 <li>
-                  <a href="#projects-section" class="nav-link">Scheduals</a>
+                  <a href="scheduals.php" class="nav-link">Scheduals</a>
                 </li>
                 <li><a href="http://localhost/FinalYearProject/index.php" class="nav-link">Log out</a></li>
-                <li><a href="register.html" class="nav-link">Assignment</a></li>
+                <li class="has-children" >
+                  <a href="#assignment-section" class="nav-link">Assignment</a>
+                  <ul class="dropdown arrow-top">
+                    <li><a href="newass.php" class="nav-link">New Assignment</a>
+                    <li><a href="viewass.php" class="nav-link">Review Assignment</a>
+                  </ul>
+                </li>
                 <li class="has-children">
                   <a href="#contact-section" class="nav-link">Contacts</a>
                   <ul class="dropdown arrow-top">
-                    <li><a href="#our-team-section" class="nav-link">Student Support</a></li>
-                    <li><a href="#faq-section" class="nav-link">School Advisor</a></li>
+                    <li><a href="studentsup.php" class="nav-link">Student Support</a></li>
+                    <li><a href="schoolad.php" class="nav-link">School Advisor</a></li>
                   </ul>
 
                 </li>
