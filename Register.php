@@ -31,7 +31,7 @@ $repassword = ((isset($_POST['repassword']))?sanitize($_POST['repassword']):'');
 $birthday = ((isset($_POST['birthday']))?sanitize($_POST['birthday']):'');
 $gender = ((isset($_POST['gender']))?sanitize($_POST['gender']):'');
 $class = ((isset($_POST['class']))?sanitize($_POST['class']):'');
-
+$newbirthday = date("Y-m-d", strtotime($birthday));
 if($_POST){
   $emailQuery= $db->query("SELECT * FROM users WHERE email = '$email'");
   $vtuCount = mysqli_num_rows($emailQuery);
@@ -56,8 +56,8 @@ if($_POST){
      echo display_errors($errors);
    }else{
       $hashed = password_hash($password,PASSWORD_DEFAULT);
-     $db->query("INSERT INTO users (name,email,password,birthday,gender,class) Values ('$name','$email','$password','$repassword','$birthday','$gender','$class')");
-
+     $db->query("INSERT INTO users (name,email,password,birthday,gender,class) Values ('$name','$email','$hashed','$newbirthday','$gender','$class')");
+     header("Location : login.php");
    }
 }
 ?>
@@ -105,7 +105,7 @@ if($_POST){
                         <div class="input-group">
                             <div class="rs-select2 js-select-simple select--no-search">
                                 <select name="class">
-                                    <option disabled="disabled" selected="selected">Lecturer</option>
+                                    <option selected="selected">Lecturer</option>
                                     <option>Student</option>
                                 </select>
                                 <div class="select-dropdown"></div>

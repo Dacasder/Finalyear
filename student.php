@@ -20,6 +20,14 @@
       <link rel="stylesheet" href="css/style.css">
 
   </head>
+  <?php
+  require_once 'core/init.php';
+  $user_id = $_SESSION['BUser'];
+  $user = $db->query("SELECT * FROM users WHERE id = '$user_id'");
+  $name = mysqli_fetch_assoc($user);
+  $names = explode(" ", $name['name']);
+  $fname = $names['0'];
+  ?>
   <body>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -65,12 +73,12 @@
 
               <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
                 <li>
-                  <a href="http://localhost/FinalYearProject/student.php#home-section" class="nav-link">Home</a>
+                  <a href="student.php" class="nav-link">Home</a>
                 </li>
                 <li>
                   <a href="#projects-section" class="nav-link">Scheduals</a>
                 </li>
-                <li><a href="http://localhost/FinalYearProject/index.php" class="nav-link">Log out</a></li>
+                <li><a href="logout.php" class="nav-link">Log out</a></li>
                 <li><a href="register.html" class="nav-link">Assignment</a></li>
                 <li class="has-children">
                   <a href="#contact-section" class="nav-link">Contacts</a>
@@ -78,8 +86,8 @@
                     <li><a href="#our-team-section" class="nav-link">Student Support</a></li>
                     <li><a href="#faq-section" class="nav-link">School Advisor</a></li>
                   </ul>
-
                 </li>
+                <li><?= $name['name'];?></li>
 
               </ul>
             </div>

@@ -24,6 +24,44 @@
 </head>
 
 <body>
+  <?php
+require_once 'core/init.php';
+$email = ((isset($_POST['email']))?sanitize($_POST['email']):'');
+$password = ((isset($_POST['password']))?sanitize($_POST['password']):'');
+
+if($_POST){
+	if(empty($_POST['email']) || empty($_POST['password'])){
+				 $errors[] = 'You must provide email and password';
+			 }
+
+			 if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+				 $errors[]= 'You must enter Valid email';
+			 }
+			 if(strlen($password) < 6){
+				 $errors[] = 'Password must be at least 6 characters';
+			 }
+
+			 $query = $db->query("SELECT * FROM users WHERE email ='$email'");
+			 $user = mysqli_fetch_assoc($query);
+			 $userCount = mysqli_num_rows($query);
+			 if($userCount <1){
+				 $errors[]= 'That email does not Exist';
+			 }
+
+			 if(!password_verify($password, $user['password'])){
+				 $errors[] = 'The password is wrong, please input Right password';
+			 }
+
+			 if(!empty($errors)){
+				 echo display_errors($errors);
+			 }else{
+				 $user_id = $user['user_id'];
+				 clogin($user_id);
+         header('Location: student.php');
+
+			 }
+}
+?>
     <div class="page-wrapper bg-red p-t-180 p-b-100 font-robo">
         <div class="wrapper wrapper--w960">
             <div class="card card-2">
@@ -32,7 +70,7 @@
                     <h2 class="title">Login Now</h2>
                     <form method="POST">
                       <div class="input-group">
-                          <input class="input--style-2" type="email" placeholder="Email" name="name">
+                          <input class="input--style-2" type="email" placeholder="Email" name="email">
                       </div>
                       <div class="input-group">
                           <input class="input--style-2" type="password" placeholder="Password" name="password">
