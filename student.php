@@ -84,10 +84,6 @@
                     <li><a href="viewass.php" class="nav-link">Review Assignment</a>
                   </ul>
                 </li>
-
-                <li><a href="logout.php" class="nav-link">Log out</a></li>
-
-
                 <li class="has-children">
                   <a href="#contact-section" class="nav-link">Contacts</a>
                   <ul class="dropdown arrow-top">
