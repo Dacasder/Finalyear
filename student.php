@@ -86,7 +86,7 @@
                 </li>
 
                 <li><a href="logout.php" class="nav-link">Log out</a></li>
-                <li><a href="register.html" class="nav-link">Assignment</a></li>
+              
 
                 <li class="has-children">
                   <a href="#contact-section" class="nav-link">Contacts</a>
