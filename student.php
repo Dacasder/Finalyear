@@ -76,8 +76,7 @@
                 <li>
                   <a href="scheduals.php" class="nav-link">Scheduals</a>
                 </li>
-<<<<<<< HEAD
-                <li><a href="http://localhost/FinalYearProject/index.php" class="nav-link">Log out</a></li>
+                   <li><a href="http://localhost/FinalYearProject/index.php" class="nav-link">Log out</a></li>
                 <li class="has-children" >
                   <a href="#assignment-section" class="nav-link">Assignment</a>
                   <ul class="dropdown arrow-top">
@@ -85,10 +84,10 @@
                     <li><a href="viewass.php" class="nav-link">Review Assignment</a>
                   </ul>
                 </li>
-=======
+
                 <li><a href="logout.php" class="nav-link">Log out</a></li>
                 <li><a href="register.html" class="nav-link">Assignment</a></li>
->>>>>>> f17d44db335d638f2f8f6482f27e9dfec96eef6b
+
                 <li class="has-children">
                   <a href="#contact-section" class="nav-link">Contacts</a>
                   <ul class="dropdown arrow-top">
