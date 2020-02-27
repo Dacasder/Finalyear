@@ -20,8 +20,14 @@
       <link rel="stylesheet" href="css/style.css">
 
   </head>
-  <body>
-
+  <?php
+  require_once 'core/init.php';
+  $user_id = $_SESSION['BUser'];
+  $user = $db->query("SELECT * FROM users WHERE id = '$user_id'");
+  $name = mysqli_fetch_assoc($user);
+  $names = explode(" ", $name['name']);
+  $fname = $names['0'];
+  ?>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 <div id="overlayer"></div>
@@ -65,11 +71,12 @@
 
               <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
                 <li>
-                  <a href="http://localhost/FinalYearProject/student.php#home-section" class="nav-link">Home</a>
+                  <a href="student.php" class="nav-link">Home</a>
                 </li>
                 <li>
                   <a href="scheduals.php" class="nav-link">Scheduals</a>
                 </li>
+<<<<<<< HEAD
                 <li><a href="http://localhost/FinalYearProject/index.php" class="nav-link">Log out</a></li>
                 <li class="has-children" >
                   <a href="#assignment-section" class="nav-link">Assignment</a>
@@ -78,14 +85,18 @@
                     <li><a href="viewass.php" class="nav-link">Review Assignment</a>
                   </ul>
                 </li>
+=======
+                <li><a href="logout.php" class="nav-link">Log out</a></li>
+                <li><a href="register.html" class="nav-link">Assignment</a></li>
+>>>>>>> f17d44db335d638f2f8f6482f27e9dfec96eef6b
                 <li class="has-children">
                   <a href="#contact-section" class="nav-link">Contacts</a>
                   <ul class="dropdown arrow-top">
                     <li><a href="studentsup.php" class="nav-link">Student Support</a></li>
                     <li><a href="schoolad.php" class="nav-link">School Advisor</a></li>
                   </ul>
-
                 </li>
+                <li>Hello, <?= $fname;?></li>
 
               </ul>
             </div>

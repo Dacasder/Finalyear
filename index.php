@@ -102,7 +102,7 @@
                     <li>
                       <a href="#projects-section" class="nav-link">Projects</a>
                     </li>
-                    <li><a href="login.html" class="nav-link">Login</a></li>
+                    <li><a href="login.php" class="nav-link">Login</a></li>
                     <li><a href="register.php" class="nav-link">Register</a></li>
                     <li><a href="#contact-section" class="nav-link">Contact</a></li>
                   </ul>
