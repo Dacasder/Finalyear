@@ -55,7 +55,7 @@ if($_POST){
 			 if(!empty($errors)){
 				 echo display_errors($errors);
 			 }else{
-				 $user_id = $user['user_id'];
+				 $user_id = $user['id'];
 				 clogin($user_id);
          header('Location: student.php');
 

@@ -28,8 +28,6 @@
   $names = explode(" ", $name['name']);
   $fname = $names['0'];
   ?>
-  <body>
-
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 <div id="overlayer"></div>
@@ -87,7 +85,7 @@
                     <li><a href="#faq-section" class="nav-link">School Advisor</a></li>
                   </ul>
                 </li>
-                <li><?= $name['name'];?></li>
+                <li>Hello, <?= $fname;?></li>
 
               </ul>
             </div>
