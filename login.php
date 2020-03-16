@@ -57,7 +57,7 @@ if($_POST){
 			 }else{
 				 $user_id = $user['id'];
 				 clogin($user_id);
-         header('Location: student.php');
+         header('Location: lecturer.php');
 
 			 }
 }
